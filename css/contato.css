@@ -1,0 +1,33 @@
+.nav {
+  background: #7C7BB9;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+.header{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.text-primary{
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+form {
+  margin: 40px;
+}
+
+form label, form legend {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+textarea{
+  width: 50%;
+  height: 70px;
+  border-radius: 10px;
+}

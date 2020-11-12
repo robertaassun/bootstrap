@@ -1,0 +1,45 @@
+.header{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.nav {
+  background: #7C7BB9;
+
+}
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+h3{
+  color: #FF69B4;
+ font-weight: bold;
+}
+.itens{
+  color: #2a27e6;
+  line-height: 1.5;
+}
+.itens::before{
+  content: "★";
+}
+
+.categorias{
+  margin: 20px;
+}
+
+.container-fluid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.box_produto{
+  align-items: center;
+  width: 150px;
+}
+.valor-desconto {
+  font-weight: bold;
+  color: red;
+}

@@ -1,0 +1,28 @@
+.header{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.banner {
+  width: 100%;
+}
+
+.container{
+  margin: 40px;
+}
+.nav {
+  background: #7C7BB9;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+.bem-vindo {
+ color: #FF69B4;
+ font-weight: bold;
+ text-shadow: #FF1493 2px 3px;
+}
+
+.descricao {
+  font-size: 20px;
+}
